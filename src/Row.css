@@ -1,0 +1,35 @@
+.row{
+    color:white;
+    margin-left: 20px;
+}
+
+.row_posters{
+    display: flex;
+    overflow-y: hidden; /*hides the vertical movement of the posters*/
+    overflow-x: scroll; /*hides the horizontal movement of the posters*/
+}
+
+.row_posters::-webkit-scrollbar{    /*hides the scrollbar*/
+    display: none;
+}
+
+.row_poster{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px; /*space between the posters*/
+    transition: transform 450ms;
+}
+
+.row_poster:hover{
+    transform: scale(1.08); /*makes poster bigger when hovered i.e. 8% scale applied(makes image 1.08 times the original)*/
+    opacity: 1; /*makes the poster highlighted when hovered or selected*/
+}
+
+.row_posterLarge{
+    max-height: 250px;
+}
+
+.row_posterLarge:hover{
+    transform: scale(1.09); /*makes the Large Posters transition*/
+    opacity: 1;
+}

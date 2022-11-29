@@ -1,0 +1,115 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/0ef67cc5-0aa7-47cf-87bd-7f595afc7cfb/c96f2a1d-1627-40aa-a29e-6ab6b27b35ab/IN-en-20221107-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+                            center no-repeat;
+    background-size: cover;
+    /*background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.loginScreen_logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8)0,
+        rgba(0, 0, 0, 0)60%,
+        rgba(0, 0, 0, 0.8)100%
+    );
+}
+
+.loginScreen_body{
+    z-index: 1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    left: 0;
+    right: 0;
+}
+
+.loginScreen_body > h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    font-weight: 650;
+}
+
+.loginScreen_body > h2{
+    font-size: 1.625rem;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+
+.loginScreen_body > h3{
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.loginScreen_button{
+    position: fixed;
+    background-color: red;
+    /*width: 80px;
+    height: 35px;*/
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    right: 20px;
+    top: 15px;
+}
+
+.loginScreen_input{
+    position: fixed center;
+    margin: 20px;
+    /*width: 80px;
+    height: 35px;
+    margin-top: 10px;*/
+}
+
+.loginScreen_input > form > input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 600px;
+    /*padding-left: 10px;*/
+}
+
+.loginScreen_getStarted{ /*can also keep .loginScreen_input > form > button*/
+    /*outline-width: 0;
+    border: 1px solid red;
+    border-radius: 3px;
+    outline: none;*/
+    padding: 16px 20px;
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
