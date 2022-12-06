@@ -13,7 +13,7 @@ In this build, the following was done:
 
 *For the Plans section, I intend to use Stripe Payments Extension through Firebase.*
 
-Current build can be accessed at: [Netflix-Clone](https://netflix-clone-796a2.web.app/)
+Current build can be accessed at: [Netflix-Clone](https://netflix-clone-teja.netlify.app/)
 
 # Outputs:
 ![SignUpScreen](https://user-images.githubusercontent.com/91416443/204613546-335e9d9e-91a4-432f-9e20-72b15228c95d.png)
